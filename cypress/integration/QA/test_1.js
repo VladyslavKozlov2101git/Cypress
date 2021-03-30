@@ -29,7 +29,7 @@ describe("Registration",function(){
         cy.get(inputsClasses).last().type(password); //Enter the password
         cy.get("button[type='submit']").click() //Sign in
 
-        cy.contains('Proceed to pay').click()
+        cy.contains('Proceed to pay').click()  // Click the button
            
     })
 })
